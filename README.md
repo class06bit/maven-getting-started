@@ -96,3 +96,7 @@ mvn archetype:generate -DinteractiveMode=false \
 -DarchetypeGroupId=org.springframework.boot -DarchetypeArtifactId=spring-boot-sample-simple-archetype \
 -DgroupId={project-packaging} -DartifactId={project-name}
 ```
+### create mvnw
+```
+mvn -N io.takari:maven:wrapper -Dmaven=3.3.3
+```
